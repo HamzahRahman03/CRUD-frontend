@@ -45,19 +45,19 @@ const AddUser = () => {
             <Typography variant="h4">Add User</Typography>
             <FormControl>
                 <InputLabel>name</InputLabel>
-                <Input onChange={(e) => onValueChange(e)} name = "name"/>
+                <Input onChange={(e) => onValueChange(e)} name = "name" autoComplete="off"/>
             </FormControl>
             <FormControl>
                 <InputLabel>username</InputLabel>
-                <Input onChange={(e) => onValueChange(e)} name = "username"/>
+                <Input onChange={(e) => onValueChange(e)} name = "username" autoComplete="off"/>
             </FormControl>
             <FormControl>
                 <InputLabel>email</InputLabel>
-                <Input onChange={(e) => onValueChange(e)} name = "email"/>
+                <Input onChange={(e) => onValueChange(e)} name = "email" autoComplete="off"/>
             </FormControl>
             <FormControl>
                 <InputLabel>phone</InputLabel>
-                <Input onChange={(e) => onValueChange(e)} name = "phone"/>
+                <Input onChange={(e) => onValueChange(e)} name = "phone" autoComplete="off"/>
             </FormControl>
             <FormControl>
                 <Button onClick ={() => addUserDetails()} variant = "contained">Add User</Button>
